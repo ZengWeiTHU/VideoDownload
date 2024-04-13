@@ -1,6 +1,6 @@
 # In[0]:
 import requests
-from config import headers
+from utils.config import headers
 from bs4 import BeautifulSoup
 from selenium import webdriver
 

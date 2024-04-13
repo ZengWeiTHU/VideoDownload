@@ -2,7 +2,7 @@ import argparse
 from bs4 import BeautifulSoup
 import random
 from urllib.request import Request, urlopen
-from config import headers
+from utils.config import headers
 import re
 
 

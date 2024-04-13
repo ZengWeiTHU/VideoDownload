@@ -19,6 +19,6 @@
     
     utils —— movies.py：获取多个视频网址
 
-    getchromedriver.py：下载chromedriver.exe，好像不下载也没事
+    getchromedriver.py：下载chromedriver.exe，好像不下载也没事。不行，在转换模式需要，在download.py同目录下
 
     main.py：主函数，主要调用download.py

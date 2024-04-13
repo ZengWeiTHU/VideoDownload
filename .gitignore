@@ -3,5 +3,6 @@
 *.DS_store
 *.jpg
 *.m3u8
-chromedriver*
+/utils/chromedriver*
 /utils/__pycache__
+/Video

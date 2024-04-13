@@ -1,6 +1,6 @@
 import os
 import requests
-from config import headers
+from utils.config import headers
 from functools import partial
 import concurrent.futures
 import time

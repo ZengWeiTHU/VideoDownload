@@ -9,13 +9,13 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 # import自写函数
-from args import *
-from config import headers
-from crawler import prepareCrawl
-from merge import mergeMp4
-from delete import deleteM3u8, deleteMp4
-from cover import getCover
-from encode import ffmpegEncode
+from utils.args import *
+from utils.config import headers
+from utils.crawler import prepareCrawl
+from utils.merge import mergeMp4
+from utils.delete import deleteM3u8, deleteMp4
+from utils.cover import getCover
+from utils.encode import ffmpegEncode
 
 def download(url):
     encode = 0 #不转档

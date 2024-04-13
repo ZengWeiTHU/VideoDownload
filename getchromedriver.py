@@ -46,7 +46,7 @@ unzip_chromedriver()
 
 # move chromedriver to the root directory
 file_source = "chromedriver-win64/chromedriver.exe"
-file_destination = "./"
+file_destination = "./utils/"
 shutil.move(file_source, file_destination)
 
 # clean up

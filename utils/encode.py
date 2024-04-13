@@ -25,7 +25,7 @@ def ffmpegEncode(folder_path, file_name, action):
             print("转档成功!")
 
         except:
-            print("转档失敗!")
+            print("转档失败!")
     elif action == 3: #CPU转档
         os.chdir(folder_path)
         try:
